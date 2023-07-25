@@ -1,0 +1,125 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(9, 247, 255);
+}
+li{
+    float: left;
+}
+li{
+    display: block;
+    color: rgb(1, 7, 14);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#grad1{
+    height: 600px;
+    background-color: rgb(252, 249, 249);
+    background-image: linear-gradient(white, rgb(243, 132, 206), yellow);
+  }
+  header {
+    background-color: #b83838;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  .nav1 {
+    float: left;
+    width: 40%;
+    height: 420px; 
+    background: #ccc;
+    padding: 20px;
+  }
+.about-me{
+    background-color: #ffffff67;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 40px;
+}
+.aboutmee{
+    text-align: center;
+}
+.aboutmee h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.about_me{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.vertical-line{
+    width: 3px;
+    height: 100%;
+    background-color: #000000;
+}
+.profile-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.basic-info{
+    color: #000000;
+    text-align: left;
+}
+.basic-info h3{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.basic-info p{
+    font-size: 16px;
+    margin: 0;
+    white-space: nowrap;
+}
+.aboutme-para{
+    flex-grow: 1;
+}
+.aboutme-para p{
+    color: #000000;
+    font-size: 18px;
+    text-align: justify;
+}
+.skills{
+    font-size: 3rem;
+    display: block;
+    font-weight: bold;
+    color: rgb(9, 64, 245);
+}
+.rectangle1{
+    height: 5px;
+    width: 250px;
+    background-image: linear-gradient(to right,blue 80%, rgb(135, 136, 187)20%);
+}
+.rectangle2{
+    height: 5px;
+    width: 250px;
+    background-image: linear-gradient(to right,blue 75%, rgb(135, 136, 187)25%);
+}
+.rectangle3{
+    height: 5px;
+    width: 250px;
+    background-image: linear-gradient(to right,blue 70%, rgb(135, 136, 187)30%);
+}
+.rectangle4{
+    height: 5px;
+    width: 250px;
+    background-image: linear-gradient(to right,blue 50%, rgb(135, 136, 187)50%);
+}
